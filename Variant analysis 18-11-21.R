@@ -76,7 +76,7 @@ ggplot(data = Variant_annotation, aes(x= fct_rev(fct_reorder(VariantScname,Age,.
   theme(text = element_text(size=15))
 
 Variant_annotation$month_test
-
+d
 table(Variant_annotation$Symptoms_1, useNA = "always")
 
 ggplot(data = Variant_annotation, aes(x= factor(VariantScname), fill=Symptoms))+
